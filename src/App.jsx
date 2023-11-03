@@ -18,6 +18,6 @@ const App = () => {
             </Routes>
         </Suspense>
     );
-};
+}
 
 export default App;

@@ -20,7 +20,10 @@ const ThemeChange = () => {
             if (htmlElement) {
                 if (theme === "dark") {
                     htmlElement.classList.add('dark');
+                    htmlElement.classList.remove('light');
+
                 } else {
+                    htmlElement.classList.add('light');
                     htmlElement.classList.remove('dark');
                 }
             }
