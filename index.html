@@ -2,8 +2,26 @@
 <html lang="en">
 <head>
     <script>
-        const theme = localStorage.getItem('theme') || 'light';
-        document.documentElement.classList.add(theme);
+        (function () {
+            let currentTheme = "light";
+
+            if (localStorage.getItem("theme")) {
+                currentTheme = localStorage.getItem("theme");
+            } else if (
+                window.matchMedia &&
+                window.matchMedia("(prefers-color-scheme: dark)").matches
+            ) {
+                currentTheme = "dark";
+            }
+
+            if (currentTheme === "dark") {
+                document.documentElement.classList.add("dark");
+            } else {
+                document.documentElement.classList.remove("dark");
+            }
+            document.documentElement.setAttribute("data-theme", currentTheme);
+            localStorage.setItem("theme", currentTheme);
+        })();
     </script>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
