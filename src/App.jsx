@@ -8,7 +8,7 @@ import Services from "./components/Services";
 
 const App = () => {
     return (
-        <Suspense fallback={<div/>}>
+        <Suspense fallback={<div className="bg-background dark:bg-darkBackgroundColor"></div> }>
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/home" element={<Navigate to="/"/>}/>

@@ -1,5 +1,6 @@
 import {motion} from "framer-motion";
 import {useTranslation} from "react-i18next"
+    import {Link} from "react-router-dom"
 
 const SideBar = () => {
     const {t} = useTranslation()
@@ -28,7 +29,7 @@ const SideBar = () => {
                 </span>
                 {navLinks.length && navLinks.map((navLink, index) => {
                     return (
-                        <motion.a
+                        <motion.div
                             key={index}
                             initial={{x: -70}}
                             animate={{x: 0}}
@@ -39,8 +40,11 @@ const SideBar = () => {
                                 writingMode: 'vertical-rl'
                             }}
                         >
+                            <Link to={`/${navLink.id}`}>
+
                             {navLink.name}
-                        </motion.a>
+                            </Link>
+                        </motion.div>
                     )
                 })}
 
