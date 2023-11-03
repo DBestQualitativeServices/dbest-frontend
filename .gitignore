@@ -1,3 +1,5 @@
+src/i18n.js
+
 # Logs
 logs
 *.log
@@ -7,7 +9,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-i18n.js
 node_modules
 dist
 dist-ssr
