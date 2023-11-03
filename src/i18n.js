@@ -14,6 +14,6 @@ i18next
             caches: ['cookie']
         },
         fallbackLng: "en",
-        backend: {loadPath: '../public/assets/locales/{{lng}}/translation.json'},
-        // react: {useSuspense: false},
+        backend: {loadPath: 'assets/locales/{{lng}}/translation.json'}, //for production
+        // backend: {loadPath: 'public/assets/locales/{{lng}}/translation.json'}, //for development
     });
