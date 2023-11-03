@@ -1,10 +1,10 @@
 import {motion} from "framer-motion";
+import {useTranslation} from "react-i18next"
 
 const SideBar = () => {
-    const navLinks = [{id: "home", name: "Home"}, {id: "about", name: "About"}, {
-        id: "services",
-        name: "Services"
-    }, {id: "contact", name: "Contact"}];
+    const {t} = useTranslation()
+    const navLinks = (t('navbar', { returnObjects: true }))
+    console.log(navLinks)
 
     return (
         <motion.nav

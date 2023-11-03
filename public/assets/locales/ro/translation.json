@@ -1,0 +1,8 @@
+{
+  "navbar": [
+    { "id": "home", "name": "Acasa" },
+    { "id": "about", "name": "Despre" },
+    { "id": "services", "name": "Servicii" },
+    { "id": "contact", "name": "Contact" }
+  ]
+}

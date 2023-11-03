@@ -1,4 +1,5 @@
 import SideBar from "./SideBar";
+import Heading from "./Heading";
 
 const PageWrapper = ({children}) => {
 
@@ -8,7 +9,8 @@ const PageWrapper = ({children}) => {
             <div className="min-h-screen  w-[60px] min-w-[60px]">
                 <SideBar/>
             </div>
-            <main className="flex-1">
+            <main className="flex-1 -mt-[4rem]">
+                <Heading />
                 {children}
             </main>
         </div>
