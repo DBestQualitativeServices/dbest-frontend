@@ -4,7 +4,7 @@ import {useTranslation} from "react-i18next"
 const SideBar = () => {
     const {t} = useTranslation()
     const navLinks = (t('navbar', { returnObjects: true }))
-    console.log(navLinks)
+
 
     return (
         <motion.nav
@@ -34,7 +34,7 @@ const SideBar = () => {
                             animate={{x: 0}}
                             transition={{duration: 0.5, delay: 0.1 + 0.1 * index}}
                             href={`/${navLink.id}`}
-                            className={"h-100 flex-shrink-0 text-xs font-extralight flex items-center justify-center opacity-50 border-r-2 border-transparent py-5 transition-all w-full hover:bg-brandColor hover:text-background hover:bg-opacity-70 rounded-sm hover:border-r-2 hover:border-background hover:opacity-100"}
+                            className={"h-100 flex-shrink-0 text-xs font-thin flex items-center justify-center opacity-50 border-r-2 border-transparent py-5 transition-all w-full hover:bg-brandColor hover:text-background hover:bg-opacity-70 rounded-sm hover:border-r-2 hover:border-background hover:opacity-100"}
                             style={{
                                 writingMode: 'vertical-rl'
                             }}

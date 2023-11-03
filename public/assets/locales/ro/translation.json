@@ -1,27 +1,45 @@
 {
   "navbar": [
-    { "id": "home", "name": "Acasa" },
-    { "id": "about", "name": "Despre" },
-    { "id": "services", "name": "Servicii" },
-    { "id": "contact", "name": "Contact" }
-  ],
-  "services": [
     {
-      "name": "Modernizare",
-      "quote": "Steve Jobs ~ “Inovația face diferența între un lider și un urmăritor.”",
-      "description": "Soluțiile noastre personalizate sunt meticulos concepute pentru a rezolva provocările unice ale fiecărui client. Utilizând tehnologii de ultimă generație și o înțelegere profundă a tendințelor din industrie, ne adaptăm soluțiile astfel încât nu doar să îndeplinească, ci să depășească așteptările. Cu accent pe scalabilitate, securitate și experiența utilizatorului, ne asigurăm că clienții noștri rămân în fruntea peisajului digital în continuă evoluție. Abordarea noastră agilă și angajamentul față de excelență ne permit să livrăm soluții personalizate care încurajează afacerile să prospere în piața competitivă de astăzi."
-    },{
-      "name": "Software",
-      "quote": "Bill Gates ~ “Software-ul este o combinație excelentă între artă și inginerie.”",
-      "description": "Serviciile noastre de dezvoltare a software-ului priorizează aplicațiile ușor de utilizat și adaptabile. Prin valorificarea celor mai recente tehnologii și a standardelor din industrie, ne asigurăm că software-ul nostru este fiabil și se aliniază cu nevoile afacerii tale. Prin testare cuprinzătoare și codare eficientă, livrăm soluții software intuitive și eficiente care te ajută să îți atingi obiectivele digitale fără probleme."
-    },{
-      "name": "Design",
-      "quote": "Joe Sparano ~ “Un design bun este evident. Un design extraordinar este transparent.”",
-      "description": "Soluțiile noastre de design sunt create cu un accent deosebit pe experiența utilizatorului. Noi credem că designul ar trebui să fie nu doar plăcut din punct de vedere vizual, ci și intuitiv și ușor de utilizat. Prin înțelegerea profundă a comportamentului utilizatorului și a celor mai recente tendințe de design, creăm interfețe captivante care lasă o impresie de durată. Echipa noastră este dedicată livrării de design-uri care se integrează perfect cu întreaga experiență a utilizatorului, îmbunătățind în mod semnificativ experiența generală și crescând implicarea utilizatorilor."
-    },{
-      "name": "Integrare",
-      "quote": "Nicolae Iorga ~ “Un ocean întreg de valori poate fi integrat într-un singur sistem, astfel încât să creeze o forță unificată.”",
-      "description": "Serviciile noastre de integrare optimizează și unifică procese de afaceri complexe, asigurând o infrastructură digitală coerentă și eficientă. Noi ne specializăm în conectarea fără probleme a sistemelor și aplicațiilor diverse, permițând afacerilor să exploateze întregul potențial al ecosistemului lor tehnologic. Cu accent pe scalabilitate și interoperabilitate robustă, facilităm fluxul fără probleme al datelor și operațiunilor, oferind organizațiilor posibilitatea de a-și optimiza modul de lucru și de a obține o productivitate și o colaborare sporită."
+      "id": "home",
+      "name": "Acasa"
+    },
+    {
+      "id": "about",
+      "name": "Despre"
+    },
+    {
+      "id": "services",
+      "name": "Servicii"
+    },
+    {
+      "id": "contact",
+      "name": "Contact"
     }
-  ]
+  ],
+  "services": {
+    "title": "Servicii",
+    "content": [
+      {
+        "name": "Modernizare",
+        "quote": "Steve Jobs ~ “Inovația face diferența între un lider și un urmăritor.”",
+        "description": "Soluțiile noastre personalizate sunt meticulos concepute pentru a rezolva provocările unice ale fiecărui client. Utilizând tehnologii de ultimă generație și o înțelegere profundă a tendințelor din industrie, ne adaptăm soluțiile astfel încât nu doar să îndeplinească, ci să depășească așteptările. Cu accent pe scalabilitate, securitate și experiența utilizatorului, ne asigurăm că clienții noștri rămân în fruntea peisajului digital în continuă evoluție. Abordarea noastră agilă și angajamentul față de excelență ne permit să livrăm soluții personalizate care încurajează afacerile să prospere în piața competitivă de astăzi."
+      },
+      {
+        "name": "Software",
+        "quote": "Bill Gates ~ “Software-ul este o combinație excelentă între artă și inginerie.”",
+        "description": "Serviciile noastre de dezvoltare a software-ului priorizează aplicațiile ușor de utilizat și adaptabile. Prin valorificarea celor mai recente tehnologii și a standardelor din industrie, ne asigurăm că software-ul nostru este fiabil și se aliniază cu nevoile afacerii tale. Prin testare cuprinzătoare și codare eficientă, livrăm soluții software intuitive și eficiente care te ajută să îți atingi obiectivele digitale fără probleme."
+      },
+      {
+        "name": "Design",
+        "quote": "Joe Sparano ~ “Un design bun este evident. Un design extraordinar este transparent.”",
+        "description": "Soluțiile noastre de design sunt create cu un accent deosebit pe experiența utilizatorului. Noi credem că designul ar trebui să fie nu doar plăcut din punct de vedere vizual, ci și intuitiv și ușor de utilizat. Prin înțelegerea profundă a comportamentului utilizatorului și a celor mai recente tendințe de design, creăm interfețe captivante care lasă o impresie de durată. Echipa noastră este dedicată livrării de design-uri care se integrează perfect cu întreaga experiență a utilizatorului, îmbunătățind în mod semnificativ experiența generală și crescând implicarea utilizatorilor."
+      },
+      {
+        "name": "Integrare",
+        "quote": "Nicolae Iorga ~ “Un ocean întreg de valori poate fi integrat într-un singur sistem, astfel încât să creeze o forță unificată.”",
+        "description": "Serviciile noastre de integrare optimizează și unifică procese de afaceri complexe, asigurând o infrastructură digitală coerentă și eficientă. Noi ne specializăm în conectarea fără probleme a sistemelor și aplicațiilor diverse, permițând afacerilor să exploateze întregul potențial al ecosistemului lor tehnologic. Cu accent pe scalabilitate și interoperabilitate robustă, facilităm fluxul fără probleme al datelor și operațiunilor, oferind organizațiilor posibilitatea de a-și optimiza modul de lucru și de a obține o productivitate și o colaborare sporită."
+      }
+    ]
+  }
 }

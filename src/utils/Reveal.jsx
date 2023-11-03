@@ -1,7 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 
-const Reveal = ({ children, width = "fit-content" }) => {
+const Reveal = ({ children, width = "fit-content", type }) => {
+    const [height, setHeight] = useState(0)
     const mainControls = useAnimation();
     const slideControls = useAnimation();
 
@@ -16,6 +17,9 @@ const Reveal = ({ children, width = "fit-content" }) => {
             slideControls.start("hidden");
             mainControls.start("hidden");
         }
+
+        // Extracting the height
+        setHeight(ref.current.offsetHeight)
     }, [isInView, mainControls, slideControls]);
 
     return (
@@ -31,16 +35,19 @@ const Reveal = ({ children, width = "fit-content" }) => {
             >
                 {children}
             </motion.div>
-            <motion.div
-                variants={{
-                    hidden: { left: 0 },
-                    visible: { left: "100%" },
-                }}
-                initial="hidden"
-                animate={slideControls}
-                transition={{ duration: 0.5, ease: "easeIn" }}
-                className={"absolute top-4 bottom-4 left-0 right-0 bg-brandColor z-20 h-full"}
-            />
+            {type && type==="complex" && (
+                <motion.div
+                    variants={{
+                        hidden: { left: 0 },
+                        visible: { left: "100%" },
+                    }}
+                    initial="hidden"
+                    animate={slideControls}
+                    transition={{ duration: 0.5, ease: "easeIn" }}
+                    className={"absolute h-full top-4 bottom-4 left-0 right-0 bg-brandColor z-20 h-full"}
+                />
+            )}
+
         </div>
     );
 };

@@ -8,7 +8,7 @@ const SectionHeader = ({title, dir = "r"}) => {
         >
             <div className={"w-full h-[1px] bg-textColor dark:bg-darkTextColor opacity-30"}/>
             <h3>
-                <Reveal>
+                <Reveal type="complex">
           <span className={"w-auto text-md sm:text-lg font-extrabold text-end"}>
             {title}
               <span className={"text-brandColor"}>?</span>
