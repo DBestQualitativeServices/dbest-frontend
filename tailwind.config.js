@@ -29,8 +29,8 @@ export default {
         extend: {
             fontSize: {
                 'xs': '1.0rem',
-                'sm': '1.2rem',
-                'md': '1.4rem',
+                'sm': '1.1rem',
+                'md': '1.3rem',
                 'lg': '2.0rem',
                 'xl': '5.0rem',
                 '2xl': '9.4rem',

@@ -1,8 +1,39 @@
 {
   "navbar": [
-    { "id": "home", "name": "Home" },
-    { "id": "about", "name": "About" },
-    { "id": "services", "name": "Services" },
-    { "id": "contact", "name": "Contact" }
+    {
+      "id": "home",
+      "name": "Home"
+    },
+    {
+      "id": "about",
+      "name": "About"
+    },
+    {
+      "id": "services",
+      "name": "Services"
+    },
+    {
+      "id": "contact",
+      "name": "Contact"
+    }
+  ],
+  "services": [
+    {
+      "name": "Innovation",
+      "quote": "Steve Jobs ~ “Innovation distinguishes between a leader and a follower.”",
+      "description": "Our custom solutions are meticulously crafted to address the unique challenges of each client. Using cutting-edge technologies and a deep understanding of industry trends, we tailor solutions that not only meet but exceed expectations. With a focus on scalability, security, and user experience, we ensure that our clients stay ahead in the ever-evolving digital landscape. Our agile approach and commitment to excellence enable us to deliver bespoke solutions that empower businesses to thrive in today's competitive market."
+    },{
+      "name": "Software",
+      "quote": "Bill Gates ~ “Software is a great combination between artistry and engineering.”",
+      "description": "Our software development services prioritize user-friendly and adaptable applications. By leveraging the latest technologies and industry standards, we ensure that our software is reliable and aligns with your business needs. Through comprehensive testing and efficient coding, we deliver intuitive and effective software solutions that seamlessly aid in achieving your digital goals."
+    },{
+      "name": "Design",
+      "quote": "Joe Sparano ~ “Good design is obvious. Great design is transparent.",
+      "description": "Our design solutions are crafted with a keen focus on user experience and aesthetics. We believe that design should not only be visually appealing but also intuitive and user-friendly. Through a deep understanding of user behavior and the latest design trends, we create engaging interfaces that leave a lasting impression. Our team is dedicated to delivering designs that seamlessly integrate with the overall user journey, enhancing the overall experience and driving user engagement to new heights.\n\n"
+    },{
+      "name": "Integration",
+      "quote": "Nicolae Iorga ~ “An entire ocean of values can be integrated into a single system, creating a unified force.”",
+      "description": "Our integration services streamline and unify complex business processes, ensuring a cohesive and efficient digital infrastructure. We specialize in seamlessly connecting diverse systems and applications, enabling businesses to harness the full potential of their technology ecosystem. With a focus on scalability and robust interoperability, we facilitate the seamless flow of data and operations, empowering organizations to optimize their workflows and achieve heightened productivity and collaboration."
+    }
   ]
 }
