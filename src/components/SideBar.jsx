@@ -11,7 +11,7 @@ const SideBar = () => {
             initial={{x: -70}}
             animate={{x: 0}}
             transition={{duration: 0.5}}
-            className={"bg-backgroundDark h-[100%] min-h-screen  sticky top-0 right-0 z-20 flex flex-col items-center"}
+            className={"bg-backgroundDark dark:bg-darkBackgroundDark h-[100%] min-h-screen  sticky top-0 right-0 z-20 flex flex-col items-center"}
             style={{
                 msOverflowStyle: 'none',
                 scrollbarWidth: 'none'
@@ -23,7 +23,7 @@ const SideBar = () => {
                      scrollbarWidth: 'none'
                  }}>
                  <span
-                     className={"flex-shrink-0 py-[0.5rem] px-[0.4rem] text-sm font-extrabold leading-none w-45 h-45 flex items-center justify-center bg-background rounded-md my-7"}>
+                     className={"flex-shrink-0 py-[0.5rem] px-[0.4rem] text-sm font-extrabold leading-none w-45 h-45 flex items-center justify-center bg-background dark:bg-darkBackground rounded-md my-7"}>
                   d<span className={"text-sm font-extrabold leading-none text-brandColor"}>B</span>
                 </span>
                 {navLinks.length && navLinks.map((navLink, index) => {

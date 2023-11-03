@@ -1,7 +1,6 @@
 import PageWrapper from "./PageWrapper";
 import Reveal from "../utils/Reveal";
 import {AiFillMail} from "react-icons/ai";
-import {Link} from "react-router-dom";
 
 const Contact = ({}) => {
 
