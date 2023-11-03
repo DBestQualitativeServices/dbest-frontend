@@ -36,7 +36,7 @@ const ThemeChange = () => {
         <div className={"flex flex-row gap-[1.5rem] mr-[2rem]"}>
             {posibleThemes.length && posibleThemes.map(eachTheme => {
                 return (
-                   <div key={eachTheme.id} onClick={() => setTheme(eachTheme.id)}>
+                   <div key={eachTheme.id} onClick={() => setTheme(eachTheme.id)} className={"scale-[1.2npm ]"}>
                        {eachTheme.icon}
                    </div>
                 )

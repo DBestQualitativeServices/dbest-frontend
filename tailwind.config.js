@@ -24,16 +24,15 @@ export default {
             textColor: "rgb(12, 12, 12)",
             darkTextColor: "rgb(235, 236, 243)",
 
-            brandColor: "rgb(60, 2" +
-                "01, 219)"
+            brandColor: "rgb(12, 150, 153)"
         },
         extend: {
             fontSize: {
-                'xs': '1.4rem',
-                'sm': '1.6rem',
-                'md': '2.0rem',
-                'lg': '3.4rem',
-                'xl': '5.4rem',
+                'xs': '1.0rem',
+                'sm': '1.2rem',
+                'md': '1.4rem',
+                'lg': '2.0rem',
+                'xl': '5.0rem',
                 '2xl': '9.4rem',
             },
         },
