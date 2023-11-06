@@ -16,23 +16,34 @@ const About = ({}) => {
 
                         <div id="values-content-wrapper"
                              className='w-full xl:w-1/2 md:bg-backgroundDark md:dark:bg-darkBackgroundDark text-textColor dark:text-darkTextColor rounded-lg flex min-h-[600px]  flex-col md:flex-row gap-[1.25rem]'>
-                            <div className="bg-background dark:bg-darkBackground md:w-[15%] lg:w-[32.5%] xl:hidden md:block hidden">
+                            <div
+                                className="bg-background dark:bg-darkBackground md:w-[15%] lg:w-[32.5%] xl:hidden md:block hidden">
 
                             </div>
-                            <div className="relative w-full md:w-[300px] flex flex-col items-center md:items-start gap-[1.25rem]">
-                                <div
-                                    className="md:absolute -left-[95px] top-[100px] w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C1
+                            <div
+                                className="relative w-full md:w-[300px] flex flex-col items-center md:items-start gap-[1.25rem]">
+                                <div className="w-full flex justify-end">
+                                    <div
+                                        className="md:absolute -left-[95px] top-[100px] w-full sm:w-[400px] md:w-[300px] h-[175px]  bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C1
+                                    </div>
                                 </div>
-                                <div
-                                    className="md:absolute -left-[95px] top-[295px] w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C2
+                                <div className="w-full flex justify-start">
+                                    <div
+                                        className="md:absolute -left-[95px] top-[295px] w-full sm:w-[400px] md:w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C2
+                                    </div>
                                 </div>
                             </div>
-                            <div className="relative w-full md:w-[300px] flex flex-col items-center md:items-start gap-[1.25rem]">
-                                <div
-                                    className="md:absolute -left-[95px] top-[140px] w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C3
+                            <div
+                                className="relative w-full md:w-[300px] flex flex-col items-center md:items-start gap-[1.25rem]">
+                                <div className="w-full flex justify-end">
+                                    <div
+                                        className="md:absolute -left-[95px] top-[140px] w-full sm:w-[400px] md:w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C3
+                                    </div>
                                 </div>
-                                <div
-                                    className="md:absolute -left-[95px] top-[335px] w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C4
+                                <div className="w-full flex justify-start">
+                                    <div
+                                        className="md:absolute -left-[95px] top-[335px] w-full sm:w-[400px] md:w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C4
+                                    </div>
                                 </div>
                             </div>
                         </div>
