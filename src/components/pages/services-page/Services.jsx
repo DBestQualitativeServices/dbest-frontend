@@ -1,6 +1,6 @@
-import PageWrapper from "./PageWrapper";
-import Reveal from "../utils/Reveal";
-import SectionHeader from "../utils/SectionHeader";
+import PageWrapper from "../../utils/PageWrapper";
+import Reveal from "../../utils/Reveal";
+import SectionHeader from "../../utils/SectionHeader";
 import {useTranslation} from "react-i18next";
 
 const Services = ({}) => {

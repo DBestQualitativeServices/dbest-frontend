@@ -1,5 +1,5 @@
-import PageWrapper from "./PageWrapper";
-import Reveal from "../utils/Reveal";
+import PageWrapper from "../../utils/PageWrapper";
+import Reveal from "../../utils/Reveal";
 import {AiFillMail} from "react-icons/ai";
 
 const Contact = ({}) => {

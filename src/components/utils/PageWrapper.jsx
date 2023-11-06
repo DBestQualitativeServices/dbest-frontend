@@ -1,5 +1,5 @@
-import SideBar from "./SideBar";
-import Heading from "./Heading";
+import SideBar from "../navigation/SideBar";
+import Heading from "../navigation/Heading";
 
 const PageWrapper = ({children}) => {
 

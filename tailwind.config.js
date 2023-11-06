@@ -6,6 +6,22 @@ export default {
     ],
     darkMode: 'class',
     theme: {
+        screens: {
+            'sm': '640px',
+            // => @media (min-width: 640px) { ... }
+
+            'md': '845px',
+            // => @media (min-width: 768px) { ... }
+
+            'lg': '1024px',
+            // => @media (min-width: 1024px) { ... }
+
+            'xl': '1280px',
+            // => @media (min-width: 1280px) { ... }
+
+            '2xl': '1536px',
+            // => @media (min-width: 1536px) { ... }
+        },
         colors: {
             transparent: "transparent",
 
@@ -27,6 +43,7 @@ export default {
             brandColor: "rgb(12, 150, 153)"
         },
         extend: {
+
             fontSize: {
                 'xs': '1.0rem',
                 'sm': '1.1rem',

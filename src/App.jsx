@@ -1,10 +1,10 @@
 import {Suspense,} from 'react';
 import {Routes, Route, Navigate} from 'react-router-dom';
 
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import About from "./components/About";
-import Services from "./components/Services";
+import Home from "./components/pages/home-page/Home";
+import Contact from "./components/pages/contact-page/Contact";
+import About from "./components/pages/about-page/About";
+import Services from "./components/pages/services-page/Services";
 
 const App = () => {
     return (
