@@ -1,10 +1,10 @@
 import PageWrapper from "../../utils/PageWrapper";
 import HomeBox from "./HomeBox";
 
-import development from "../../../../public/assets/media/development-min.jpg"
-import security from "../../../../public/assets/media/security-min.jpg"
-import support from "../../../../public/assets/media/support-min.jpg"
-import creativity from "../../../../public/assets/media/creativity-min.jpg"
+import development from "../../../../public/assets/media/development-min_prev_ui.png"
+import security from "../../../../public/assets/media/security-min_prev_ui.png"
+import support from "../../../../public/assets/media/support-min_prev_ui.png"
+import creativity from "../../../../public/assets/media/creativity-min_prev_ui.png"
 
 const Home = () => {
 
@@ -31,8 +31,8 @@ C2
 
                         <div className="flex flex-col-reverse lg:flex-row gap-[1.25rem]">
                             <HomeBox id="c4"
-                                     customStyles="aspect-[3/1.2] lg:aspect-square  w-full lg:w-[460px] lg:h-[460px]">
-                                <img src={development} alt={""} className="bg-background aspect-[3/1.2] lg:aspect-square dark:bg-darkBackground w-full lg:w-[460px] lg:h-[460px] object-center object-cover rounded-lg"/>
+                                     customStyles="aspect-[3/1.2] lg:aspect-square  w-full lg:w-[460px] lg:h-[490px]">
+                                <img src={development} alt={""} className="bg-background aspect-[3/1.2] dark:bg-darkBackground w-full lg:w-[460px] lg:h-[490px] object-center object-cover rounded-lg"/>
 
                             </HomeBox>
                             <div className="flex-col flex flex-1 gap-[1.25rem]">
@@ -54,7 +54,7 @@ C2
 
                                         </HomeBox>
                                     </div>
-                                    <HomeBox id="c8" customStyles=" w-full h-[270px] lg:h-auto">
+                                    <HomeBox id="c8" customStyles=" w-full h-[270px]">
                                         C8
                                     </HomeBox>
                                 </div>
