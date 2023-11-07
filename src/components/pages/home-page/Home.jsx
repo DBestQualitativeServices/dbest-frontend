@@ -1,10 +1,10 @@
 import PageWrapper from "../../utils/PageWrapper";
 import HomeBox from "./HomeBox";
 
-import development from "../../../../public/assets/media/development.jpg"
-import security from "../../../../public/assets/media/security.jpg"
-import support from "../../../../public/assets/media/support.jpg"
-import creativity from "../../../../public/assets/media/creativity.jpg"
+import development from "../../../../public/assets/media/development-min.jpg"
+import security from "../../../../public/assets/media/security-min.jpg"
+import support from "../../../../public/assets/media/support-min.jpg"
+import creativity from "../../../../public/assets/media/creativity-min.jpg"
 
 const Home = () => {
 
