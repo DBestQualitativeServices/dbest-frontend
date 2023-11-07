@@ -1,13 +1,12 @@
 import React, {useEffect, useRef, useState} from "react";
-import { motion, useInView, useAnimation } from "framer-motion";
+import {motion, useInView, useAnimation} from "framer-motion";
 
-const Reveal = ({ children, width = "fit-content", type }) => {
-    const [height, setHeight] = useState(0)
+const Reveal = ({children, width = "fit-content", type}) => {
     const mainControls = useAnimation();
     const slideControls = useAnimation();
 
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: true });
+    const isInView = useInView(ref, {once: true});
 
     useEffect(() => {
         if (isInView) {
@@ -17,33 +16,30 @@ const Reveal = ({ children, width = "fit-content", type }) => {
             slideControls.start("hidden");
             mainControls.start("hidden");
         }
-
-        // Extracting the height
-        setHeight(ref.current.offsetHeight)
     }, [isInView, mainControls, slideControls]);
 
     return (
-        <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
+        <div ref={ref} style={{position: "relative", width, overflow: "hidden"}}>
             <motion.div
                 variants={{
-                    hidden: { opacity: 0, y: 75 },
-                    visible: { opacity: 1, y: 0 },
+                    hidden: {opacity: 0, y: 75},
+                    visible: {opacity: 1, y: 0},
                 }}
                 initial="hidden"
                 animate={mainControls}
-                transition={{ duration: 0.5, delay: 0.25 }}
+                transition={{duration: 0.5, delay: 0.25}}
             >
                 {children}
             </motion.div>
-            {type && type==="complex" && (
+            {type && type === "complex" && (
                 <motion.div
                     variants={{
-                        hidden: { left: 0 },
-                        visible: { left: "100%" },
+                        hidden: {left: 0},
+                        visible: {left: "100%"},
                     }}
                     initial="hidden"
                     animate={slideControls}
-                    transition={{ duration: 0.5, ease: "easeIn" }}
+                    transition={{duration: 0.5, ease: "easeIn"}}
                     className={"absolute h-full top-4 bottom-4 left-0 right-0 bg-brandColor z-20 h-full"}
                 />
             )}

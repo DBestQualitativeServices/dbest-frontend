@@ -1,52 +1,38 @@
 import PageWrapper from "../../utils/PageWrapper";
+import FourBoxLayout from "./FourBoxLayout";
+import HomeBox from "../home-page/HomeBox";
+import AnimatedSection from "../../utils/AnimatedSection";
 
-const About = ({}) => {
+const About = () => {
 
     return (
         <PageWrapper>
-            <div id="home-main-grid-wrapper"
-                 className="min-h-screen flex items-stretch justify-center text-textColor dark:text-darkTextColor">
-                <div className="my-20 flex-1 flex items-stretch justify-center">
-                    <div id="about-main-grid"
-                         className="flex-1 flex flex-col xl:flex-row m-5 max-w-[1400px]">
-
-                        <div id="values-title-wrapper" className='w-full xl:w-1/2'>
-
+            <div className="min-h-screen flex items-stretch justify-center text-textColor dark:text-darkTextColor">
+                <div className="my-20 flex-1 flex flex-col items-stretch justify-center">
+                    <div className="flex-1 flex flex-col xl:flex-row m-5 max-w-[1400px]">
+                        <div className='w-full mb-[1.25rem] xl:mb-0 xl:w-1/2 flex'>
+                            <div
+                                className="flex-1 min-h-[300px] flex flex-col items-start justify-center gap-[1.25rem]">
+                                <AnimatedSection customStyles="min-h-[75px] w-full md:w-auto sm:min-w-[500px] md:ml-20 xl:ml-0" animateTo="right">
+                                    <HomeBox id="values-title"
+                                             customStyles="h-full w-full">
+                                        Title
+                                    </HomeBox>
+                                </AnimatedSection>
+                                <AnimatedSection customStyles="min-h-[200px] w-full md:w-auto sm:min-w-[450px] md:ml-20 xl:ml-0" animateTo="right">
+                                    <HomeBox id="values-title"
+                                             customStyles="h-full w-full">
+                                        Description
+                                    </HomeBox>
+                                </AnimatedSection>
+                                <div className="xl:block hidden xl:h-[50px]"></div>
+                            </div>
+                            <div className="xl:block hidden xl:w-[100px]"></div>
                         </div>
+                        <FourBoxLayout/>
+                    </div>
+                    <div className="min-h-screen">
 
-                        <div id="values-content-wrapper"
-                             className='w-full xl:w-1/2 md:bg-backgroundDark md:dark:bg-darkBackgroundDark text-textColor dark:text-darkTextColor rounded-lg flex min-h-[600px]  flex-col md:flex-row gap-[1.25rem]'>
-                            <div
-                                className="bg-background dark:bg-darkBackground md:w-[15%] lg:w-[32.5%] xl:hidden md:block hidden">
-
-                            </div>
-                            <div
-                                className="relative w-full md:w-[300px] flex flex-col items-center md:items-start gap-[1.25rem]">
-                                <div className="w-full flex justify-end">
-                                    <div
-                                        className="md:absolute -left-[95px] top-[100px] w-full sm:w-[400px] md:w-[300px] h-[175px]  bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C1
-                                    </div>
-                                </div>
-                                <div className="w-full flex justify-start">
-                                    <div
-                                        className="md:absolute -left-[95px] top-[295px] w-full sm:w-[400px] md:w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C2
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                className="relative w-full md:w-[300px] flex flex-col items-center md:items-start gap-[1.25rem]">
-                                <div className="w-full flex justify-end">
-                                    <div
-                                        className="md:absolute -left-[95px] top-[140px] w-full sm:w-[400px] md:w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C3
-                                    </div>
-                                </div>
-                                <div className="w-full flex justify-start">
-                                    <div
-                                        className="md:absolute -left-[95px] top-[335px] w-full sm:w-[400px] md:w-[300px] h-[175px] bg-background dark:bg-darkBackground rounded-lg shadow-2xl flex items-center justify-center">C4
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

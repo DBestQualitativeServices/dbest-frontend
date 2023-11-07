@@ -26,7 +26,7 @@ export default {
             transparent: "transparent",
 
             background: "rgb(277, 277, 277)",
-            darkBackground: "rgb(17, 17, 17)",
+            darkBackground: "rgb(35, 35, 35)",
 
             opaqueBackground: "rgb(260, 260, 260, 0.25)",
             darkOpaqueBackground: "rgb(17, 17, 17, 0.25)",
