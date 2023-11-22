@@ -5,9 +5,12 @@ import './index.css';
 import "./i18n.js"
 
 import {BrowserRouter} from 'react-router-dom';
+import {FetchProvider} from "./contexts/FetchContext";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+    <FetchProvider>
         <BrowserRouter>
             <App/>
         </BrowserRouter>
+    </FetchProvider>
 )

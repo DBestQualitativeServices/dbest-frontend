@@ -20,7 +20,7 @@ const Home = () => {
 
     return (
         <div
-            className={"min-w-screen min-h-screen text-darkShade bg-whiteShade selection:text-whiteShade selection:bg-accent"}>
+            className={"min-w-screen min-h-screen text-darkShade bg-whiteShade selection:text-whiteShade selection:bg-accent font-poppins"}>
             <Navbar navContent={navbar}/>
             <HeroLayout heroContent={hero}/>
             <main className={"flex flex-col min-w-screen items-stretch"}>

@@ -8,7 +8,7 @@ import ForOFour from "./components/pages/FourOFour";
 
 const App = () => {
     return (
-        <Suspense fallback={<div className="bg-background dark:bg-darkBackgroundColor text-poppins"></div> }>
+        <Suspense fallback={<div className="bg-background text-poppins"></div> }>
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/home" element={<Navigate to="/"/>}/>

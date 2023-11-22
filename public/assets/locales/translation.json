@@ -176,9 +176,81 @@
             }
         ]
     },
+    "contact": {
+        "main": {
+            "photoUrl": "https://i.imgur.com/JzqP4GZ.jpg",
+            "title": "Go Digital: Book a Consultation",
+            "subTitle": "Explore proven Software & Website Solutions. Let's Create! Our tech experts are ready to innovate and code your journey to Digital Excellence and Business Growth!"
+        },
+        "form": {
+            "fields": [
+                {
+                    "id": "firstName",
+                    "label": "First Name",
+                    "placeHolder": "Bonnie",
+                    "customStyles": "col-span-2 md:col-span-1",
+                    "maxLength": "40",
+                    "minLength": "2"
+                }, {
+                    "id": "lastName",
+                    "label": "Last Name",
+                    "placeHolder": "Green",
+                    "customStyles": "col-span-2 md:col-span-1",
+                    "maxLength": "40",
+                    "minLength": "2"
+                }, {
+                    "id": "email",
+                    "label": "Email",
+                    "placeHolder": "email@example.com",
+                    "customStyles": "col-span-2 md:col-span-1",
+                    "maxLength": "50",
+                    "minLength": "2"
+
+                }, {
+                    "id": "phoneNumber",
+                    "label": "Phone Number",
+                    "placeHolder": "+12 345 6789",
+                    "customStyles": "col-span-2 md:col-span-1",
+                    "maxLength": "20",
+                    "minLength": "2"
+                }, {
+                    "id": "message",
+                    "label": "Message",
+                    "placeHolder": "Schedule a meeting...",
+                    "customStyles": "col-span-2 h-[140px]",
+                    "maxLength": "1000",
+                    "minLength": "2"
+                }
+            ],
+            "info": "By submitting this form you agree to our terms and conditions and our privacy policy which explains how we may collect, use and disclose your personal information including to third parties.",
+            "button": "Send Message"
+        },
+        "validationPopup": {
+            "success": {
+                "title": "Success!",
+                "message": "Your message has been sent successfully."
+            },
+            "failure": {
+                "title": "Ooops!",
+                "message": "We're experiencing technical difficulties. Please retry sending your message."
+            },
+            "error1": {
+                "title": "Ooops!",
+                "message": "You have not filled any of the form fields. Please fill in the form and then try again."
+            },
+            "error2": {
+                "title": "Ooops!",
+                "message": "The legth of the {{parameter}} can not be more than {{length}} characters!"
+            },
+            "error3": {
+                "title": "Ooops!",
+                "message": "The legth of the {{parameter}} should be more than {{length}} characters!"
+            }
+        }
+    },
     "404": {
-        "title": "Pagina nu a fost gasita",
-        "subtitle": "Ne cerem scuze, nu am putut gasi pegina pe care o cautati.",
-        "button": "Inapoi la pagina principala"
+        "title": "Page not found",
+        "subtitle": "Sorry, we couldn’t find the page you’re looking for.",
+        "button": "Back to Home"
     }
 }
