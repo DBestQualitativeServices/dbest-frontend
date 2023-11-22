@@ -39,7 +39,7 @@ const ContactForm = ({data, onSubmit, buttonStatus}) => {
             <div>
                 <button type="submit"
                         disabled={buttonStatus}
-                        className={`${!buttonStatus ? "cursor-not-allowed" : "cursor-pointer"} bg-darkAccent px-4 py-3 rounded-md`}>{data.form.button}</button>
+                        className={`bg-darkAccent px-4 py-3 rounded-md`}>{data.form.button}</button>
             </div>
         </form>
     )
