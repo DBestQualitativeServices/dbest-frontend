@@ -15,6 +15,7 @@ const GridWithPhotoes = ({grids}) => {
                             <div>
                                 <img
                                     loading={"lazy"}
+                                    alt={grid.photoAlt}
                                     src={grid.photoUrl}
                                     className={"w-full h-full aspect-square"}
                                 />

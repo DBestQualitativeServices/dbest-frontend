@@ -27,7 +27,7 @@ const CallToAction = ({sectionContent}) => {
                 </div>
             </div>
             <div className={"flex justify-center items-center lg:w-1/2" }>
-                <img src={sectionContent.photoUrl} className={"w-[65%] lg:w-full"}/>
+                <img src={sectionContent.photoUrl} alt={sectionContent.photoAlt} className={"w-[65%] lg:w-full"}/>
             </div>
         </div>
     )

@@ -26,16 +26,19 @@
       "gallery": [
         {
           "photoUrl": "https://imgur.com/03RvRDL.jpg",
+          "photoAlt": "A photo of the much larger reach you can get with our services",
           "heading": "Increase Your Reach, Amplify Your Impact",
           "description": "In a dynamic business landscape, tapping into new customer segments is key to success. We build innovative websites that empower you to expand your reach, engaging with diverse audiences and establishing a robust presence in untapped markets."
         },
         {
           "photoUrl": "https://imgur.com/PJM8CWg.jpg",
+          "photoAlt": "A photo showing how automation can help boost your sales",
           "heading": "Boost Your Sales with Automation",
           "description": "We can automate your services to unlock higher sales potential. Watch as streamlined processes and efficient operations lead to an organized workflow and increased customer satisfaction."
         },
         {
           "photoUrl": "https://imgur.com/2Fv4zay.jpg",
+          "photoAlt": "A photo encouraging to drop the old paper for computer software solutions",
           "heading": "Modernize Your Workflow: Go Paperless Today",
           "description": "Ditch the outdated paperwork hassle and embrace modern approaches. See how our software solutions transform cumbersome tasks into seamless operations, freeing you from the time-consuming constraints of traditional paperwork."
         }
@@ -71,16 +74,19 @@
       "possibleProblems": [
         {
           "photoUrl": "https://imgur.com/SO5MAux.jpg",
+          "photoAlt": "A photo of a hard to manage business because of un-optimal staffing ",
           "title": "Time and Resource Strain from Employee Management",
           "description": "Maintain optimal staffing levels without causing disruptions to your business. Optimize operational efficiency and minimize disruptions, ensuring a seamless and improved business process that empowers your team for success."
         },
         {
           "photoUrl": "https://imgur.com/Nr8DDoc.jpg",
+          "photoAlt": "A photo of the global reach you can get having a website",
           "title": "Step Out of the Shadows! Bringing Your Business into the Spotlight",
           "description": "Your audience is out focus—We identify your audience and ensure a precise targeting approach. Throughout the customer conversion process, we guarantee a personalized experience, ensuring your business resonates with those seeking your valuable services."
         },
         {
           "photoUrl": "https://imgur.com/ybIuYnt.jpg",
+          "photoAlt": "A photo of lacking infrastructure in need for a change",
           "title": "Is Your IT Infrastructure Holding You Back? It's Time for a Change",
           "description": "While Excel, Word, and Yahoo Mail are handy, broadening your customer base calls for specialized tools. Invest in custom solutions to maximize outreach, enhance operational efficiency, and position your business for success in an ever-evolving market."
         }
@@ -98,6 +104,7 @@
           "subtitle": "See how our software empowered dozens of doctors in a transformative project, delivering healthcare to the doorsteps of those in need.",
           "description": "In the heart of Romania, Medcorp stands as a beacon of hope, offering free medical services to the underserved through the renowned Medical Program. We played a pivotal role in this initiative, developing both a user-friendly website and an internal application.",
           "photoUrl": "https://imgur.com/6RF9VFi.jpg",
+          "photoAlt": "A photo of a doctor from a business we helped with it's software",
           "paragraphs": [
             {
               "title": "Bridging Gaps: Crafting the Online Presence",
@@ -124,21 +131,25 @@
       "content": [
         {
           "photoUrl": "https://imgur.com/ftEByyN.jpg",
+          "photoAlt": "A photo of a robot doing hard tasks",
           "title": "Global Automation Solutions",
           "description": "Revolutionize your operations with dBest Qualitative Services. Our global, automated solutions redefine efficiency, propelling businesses toward increased sales and sustained success."
         },
         {
           "photoUrl": "https://imgur.com/vbnrD6h.jpg",
+          "photoAlt": "A photo of a guide helping a manager grow his business",
           "title": "Expert-Led Transformations",
           "description": "Harness our expertise for transformative results. At dBest Qualitative Services, we specialize in crafting solutions that exceed expectations, ensuring your business not only meets but thrives."
         },
         {
           "photoUrl": "https://imgur.com/74kkf2K.jpg",
+          "photoAlt": "A photo of of the global reach you can get using our services",
           "title": "Enabling Success, Satisfying Thousands",
           "description": "Unleash partner success effortlessly with dBest Qualitative Services. Our software solutions empower partners to reach and satisfy thousands of clients, ensuring a seamless path to excellence."
         },
         {
           "photoUrl": "https://imgur.com/vGXmoQm.jpg",
+          "photoAlt": "A photo of a manager having a lot of problems",
           "title": "Overcome Challenges, Thrive",
           "description": "Surmount obstacles with our services. Our dedicated team empowers your business to thrive, delivering tailored solutions that turn challenges into opportunities. Join us on the path to success!"
         }
@@ -146,6 +157,7 @@
     },
     "cta": {
       "photoUrl": "https://imgur.com/mdMqfFY.jpg",
+      "photoAlt": "A photo of a computer running heavy software inside",
       "title": "Transform Your Business Today",
       "subtitle": "Ready to leave outdated practices behind? Elevate your operations with our tailored software solutions. Let's discuss your next breakthrough.",
       "callToAction": "Book a Consultation"
@@ -179,6 +191,7 @@
   "contact": {
     "main": {
       "photoUrl": "https://i.imgur.com/JzqP4GZ.jpg",
+      "photoAlt": "A photo of somebody booking a consultation to dBestQualitativeServices",
       "title": "Go Digital: Book a Consultation",
       "subTitle": "Explore proven Software & Website Solutions. Let's Create! Our tech experts are ready to innovate and code your journey to Digital Excellence and Business Growth!"
     },

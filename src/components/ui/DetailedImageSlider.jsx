@@ -26,6 +26,7 @@ const DetailedImageSlider = ({slides}) => {
                 <img
                     loading={"lazy"}
                     src={slides[currentSlide].photoUrl}
+                    alt={slides[currentSlide].photoAlt}
                     className={"w-[65%] sm:w-[50%] lg:w-full aspect-square"}
                     onLoad={handleImageLoad}
                 />

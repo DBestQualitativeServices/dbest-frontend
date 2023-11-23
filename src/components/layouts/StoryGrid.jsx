@@ -17,6 +17,7 @@ const StoryGrid = ({grids}) => {
                                 <img
                                     loading={"lazy"}
                                     src={story.photoUrl}
+                                    alt={story.photoAlt}
                                     className={"w-full h-[200px] rounded-sm"}
                                 />
                             </div>

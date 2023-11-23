@@ -20,6 +20,7 @@ const FeatureGrid = ({sectionContent}) => {
                                         <img
                                             loading={"lazy"}
                                             src={section.photoUrl}
+                                            alt={section.photoAlt}
                                             className={"max-w-[290px] h-full aspect-square"}
                                         />
                                     </div>

@@ -8,6 +8,7 @@ import ValidationPopup from "../ui/ValidationPopup";
 import ContactForm from "../ui/ContactForm";
 import {useContext, useState} from "react";
 import {FetchContext} from "../../contexts/FetchContext";
+import {Helmet} from "react-helmet";
 
 const Contact = () => {
     const [popup, setPopup] = useState({title: "", message: "", visible: false})
@@ -88,10 +89,14 @@ const Contact = () => {
         <div
             onClick={removePopup}
             className={"relative min-w-screen min-h-screen text-darkShade selection:text-whiteShade selection:bg-accent font-poppins"}>
+            <Helmet>
+                <title>Contact dBest - Explore Proven Software & Website Solutions</title>
+                <meta name="description" content="Ready to elevate your business digitally? Connect with our tech experts to explore tailored software and website solutions. Let's innovate your journey to digital excellence and accelerated growth!" />
+            </Helmet>
             <Navbar navContent={navbar}/>
             <main className={"relative min-w-screen"}>
                 <div className={"absolute w-full min-w-screen -z-10 top-0"}>
-                    <img src={contact.main.photoUrl} alt={"Background image"}
+                    <img src={contact.main.photoUrl} alt={contact.main.photoAlt}
                          className={"w-full min-h-[800px] opacity-30 object-center object-cover"}/>
                 </div>
                 <section className={" z-10 max-w-[1150px] mx-8 py-[7.2rem] sm:py-[9.6rem]"}>
