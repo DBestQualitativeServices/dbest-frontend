@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/dbest/public_html/
-    - /bin/cp -R /home/dbest/public_html/dist/* $DEPLOYPATH

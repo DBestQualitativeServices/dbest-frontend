@@ -1,45 +1,256 @@
 {
-  "navbar": [
-    {
-      "id": "home",
-      "name": "Acasa"
+  "navbar": {
+    "longTitle": "dBest Qualitative Services",
+    "shortTitle": "dBest  Services",
+    "links": [
+      {
+        "id": "Home",
+        "path": "/",
+        "name": "Home"
+      },{
+        "id": "Services",
+        "path": "/services",
+        "name": "Services"
+      },{
+        "id": "Contact",
+        "path": "/contact",
+        "name": "Contact"
+      }
+    ]
+  },
+  "homePage": {
+    "hero": {
+      "title": "Transform Your Business with Innovative Software!",
+      "subtitle": "As digital demands increase, outdated processes are slowing down your business. We build software that ensures optimized workflows, giving you back crucial hours for growth and innovation.",
+      "callToAction": "Book a consultation.",
+      "gallery": [
+        {
+          "photoUrl": "https://imgur.com/03RvRDL.jpg",
+          "heading": "Increase Your Reach, Amplify Your Impact",
+          "description": "In a dynamic business landscape, tapping into new customer segments is key to success. We build innovative websites that empower you to expand your reach, engaging with diverse audiences and establishing a robust presence in untapped markets."
+        },
+        {
+          "photoUrl": "https://imgur.com/PJM8CWg.jpg",
+          "heading": "Boost Your Sales with Automation",
+          "description": "We can automate your services to unlock higher sales potential. Watch as streamlined processes and efficient operations lead to an organized workflow and increased customer satisfaction."
+        },
+        {
+          "photoUrl": "https://imgur.com/2Fv4zay.jpg",
+          "heading": "Modernize Your Workflow: Go Paperless Today",
+          "description": "Ditch the outdated paperwork hassle and embrace modern approaches. See how our software solutions transform cumbersome tasks into seamless operations, freeing you from the time-consuming constraints of traditional paperwork."
+        }
+      ]
     },
-    {
-      "id": "about",
-      "name": "Despre"
+    "customerFailures": {
+      "heading": {
+        "moto": "Don't Ignore",
+        "title": "The Impact of Overlooking Technological Advancements",
+        "subtitle": "If you continue to rely on outdated and manual processes, you'll face numerous challenges. Your sales will suffer, and your business growth will be stunted. Don't let your competitors surpass you!"
+      },
+      "possibleFailures": [
+        {
+          "title": "Are you tired of the Increased Financial Burden?",
+          "description": "Persisting with outdated methods leads to growing financial strain. Inefficient processes inflate operational costs, impeding your ability to allocate resources where you really need to!"
+        },
+        {
+          "title": "Are You Blocking Resources with Minimal Added Value?",
+          "description": "Maximize the impact of your valuable resources by minimizing involvement in trivial and bureaucratic responsibilities, directing your focus towards achieving ultimate customer contentment."
+        },
+        {
+          "title": "Omnipresence is Creating Blind Spots in Your Business Approach!",
+          "description": "Liberate yourself from inefficiencies! Let us handle your operational challenges, allowing you to concentrate on business growth. Our expert team ensures seamless operations, so you can focus on what matters most—expanding your business and achieving your goals."
+        }
+      ]
     },
-    {
-      "id": "services",
-      "name": "Servicii"
+    "customerProblems": {
+      "heading": {
+        "moto": "Unlock Potential",
+        "title": "Identify the Challenges Hindering Your Business Growth",
+        "subtitle": "Inefficient work, outdated systems, and lack of IT infrastructure can impede your business's progress. Discover how our tailored solutions can help you overcome these obstacles and achieve success."
+      },
+      "possibleProblems": [
+        {
+          "photoUrl": "https://imgur.com/SO5MAux.jpg",
+          "title": "Time and Resource Strain from Employee Management",
+          "description": "Maintain optimal staffing levels without causing disruptions to your business. Optimize operational efficiency and minimize disruptions, ensuring a seamless and improved business process that empowers your team for success."
+        },
+        {
+          "photoUrl": "https://imgur.com/Nr8DDoc.jpg",
+          "title": "Step Out of the Shadows! Bringing Your Business into the Spotlight.",
+          "description": "Your audience is out focus—We identify your audience and ensure a precise targeting approach. Throughout the customer conversion process, we guarantee a personalized experience, ensuring your business resonates with those seeking your valuable services."
+        },
+        {
+          "photoUrl": "https://imgur.com/ybIuYnt.jpg",
+          "title": "Is Your IT Infrastructure Holding You Back? It's Time for a Change.",
+          "description": "While Excel, Word, and Yahoo Mail are handy, broadening your customer base calls for specialized tools. Invest in custom solutions to maximize outreach, enhance operational efficiency, and position your business for success in an ever-evolving market."
+        }
+      ]
     },
-    {
-      "id": "contact",
-      "name": "Contact"
+    "accomplishments": {
+      "heading": {
+        "moto": "Revolutionize",
+        "title": "Discover the Difference",
+        "subtitle": "We build the software you need to get going"
+      },
+      "stories": [
+        {
+          "title": "The Fascinating Story of Medcorp",
+          "subtitle": "See how our software empowered dozens of doctors in a transformative project, delivering healthcare to the doorsteps of those in need.",
+          "description": "In the heart of Romania, Medcorp stands as a beacon of hope, offering free medical services to the underserved through the renowned Medical Program. We played a pivotal role in this initiative, developing both a user-friendly website and an internal application.",
+          "photoUrl": "https://imgur.com/6RF9VFi.jpg",
+          "paragraphs": [
+            {
+              "title": "Bridging Gaps: Crafting the Online Presence",
+              "content": "Our team constructed an engaging website, narrating Medcorp's mission and impact. This digital gateway connects supporters, facilitates donations, and tells the story of Medcorp's transformative work."
+            },
+            {
+              "title": "Empowering Medical Professionals: The Internal Application",
+              "content": "Behind the scenes, our internal application revolutionized operations for doctors of the Medical Program. Handling patient management, ensuring data uniformity, and generating comprehensive reports, our software streamlined their crucial work."
+            },
+            {
+              "title": "A Symbiotic Relationship: Tech and Compassion",
+              "content": "Our software seamlessly integrated into Medcorp's mission, showcasing the synergy between technology and compassion. It's more than a website and an application; it's a conduit amplifying the impact of each medical mission."
+            }
+          ]
+        }
+      ]
+    },
+    "expertise": {
+      "heading": {
+        "moto": "Transform",
+        "title": "Expertise and Commitment to Customer Success",
+        "subtitle": "At dBest Qualitative Services, we are dedicated to providing global and automated solutions that lead to better sales. With our expertise and commitment to customer success, we have helped numerous businesses thrive and overcome their challenges."
+      },
+      "content": [
+        {
+          "photoUrl": "https://imgur.com/ftEByyN.jpg",
+          "title": "Global Automation Solutions",
+          "description": "Revolutionize your operations with dBest Qualitative Services. Our global, automated solutions redefine efficiency, propelling businesses toward increased sales and sustained success."
+        },
+        {
+          "photoUrl": "https://imgur.com/vbnrD6h.jpg",
+          "title": "Expert-Led Transformations",
+          "description": "Harness our expertise for transformative results. At dBest Qualitative Services, we specialize in crafting solutions that exceed expectations, ensuring your business not only meets but thrives."
+        },
+        {
+          "photoUrl": "https://imgur.com/74kkf2K.jpg",
+          "title": "Enabling Success, Satisfying Thousands",
+          "description": "Unleash partner success effortlessly with dBest Qualitative Services. Our software solutions empower partners to reach and satisfy thousands of clients, ensuring a seamless path to excellence."
+        },
+        {
+          "photoUrl": "https://imgur.com/vGXmoQm.jpg",
+          "title": "Overcome Challenges, Thrive",
+          "description": "Surmount obstacles with our services. Our dedicated team empowers your business to thrive, delivering tailored solutions that turn challenges into opportunities. Join us on the path to success!"
+        }
+      ]
+    },
+    "cta": {
+      "photoUrl": "https://imgur.com/mdMqfFY.jpg",
+      "title": "Transform Your Business Today",
+      "subtitle": "Ready to leave outdated practices behind? Elevate your operations with our tailored software solutions. Let's discuss your next breakthrough.",
+      "callToAction": "Book a Consultation"
     }
-  ],
+  },
   "services": {
-    "title": "Servicii",
+    "title": "Services",
     "content": [
       {
-        "name": "Modernizare",
-        "quote": "Steve Jobs ~ “Inovația face diferența între un lider și un urmăritor.”",
-        "description": "Soluțiile noastre personalizate sunt meticulos concepute pentru a rezolva provocările unice ale fiecărui client. Utilizând tehnologii de ultimă generație și o înțelegere profundă a tendințelor din industrie, ne adaptăm soluțiile astfel încât nu doar să îndeplinească, ci să depășească așteptările. Cu accent pe scalabilitate, securitate și experiența utilizatorului, ne asigurăm că clienții noștri rămân în fruntea peisajului digital în continuă evoluție. Abordarea noastră agilă și angajamentul față de excelență ne permit să livrăm soluții personalizate care încurajează afacerile să prospere în piața competitivă de astăzi."
+        "name": "Innovation",
+        "quote": "Steve Jobs ~ “Innovation distinguishes between a leader and a follower.”",
+        "description": "Our custom solutions are meticulously crafted to address the unique challenges of each client. Using cutting-edge technologies and a deep understanding of industry trends, we tailor solutions that not only meet but exceed expectations. With a focus on scalability, security, and user experience, we ensure that our clients stay ahead in the ever-evolving digital landscape. Our agile approach and commitment to excellence enable us to deliver bespoke solutions that empower businesses to thrive in today's competitive market."
       },
       {
         "name": "Software",
-        "quote": "Bill Gates ~ “Software-ul este o combinație excelentă între artă și inginerie.”",
-        "description": "Serviciile noastre de dezvoltare a software-ului priorizează aplicațiile ușor de utilizat și adaptabile. Prin valorificarea celor mai recente tehnologii și a standardelor din industrie, ne asigurăm că software-ul nostru este fiabil și se aliniază cu nevoile afacerii tale. Prin testare cuprinzătoare și codare eficientă, livrăm soluții software intuitive și eficiente care te ajută să îți atingi obiectivele digitale fără probleme."
+        "quote": "Bill Gates ~ “Software is a great combination between artistry and engineering.”",
+        "description": "Our software development services prioritize user-friendly and adaptable applications. By leveraging the latest technologies and industry standards, we ensure that our software is reliable and aligns with your business needs. Through comprehensive testing and efficient coding, we deliver intuitive and effective software solutions that seamlessly aid in achieving your digital goals."
       },
       {
         "name": "Design",
-        "quote": "Joe Sparano ~ “Un design bun este evident. Un design extraordinar este transparent.”",
-        "description": "Soluțiile noastre de design sunt create cu un accent deosebit pe experiența utilizatorului. Noi credem că designul ar trebui să fie nu doar plăcut din punct de vedere vizual, ci și intuitiv și ușor de utilizat. Prin înțelegerea profundă a comportamentului utilizatorului și a celor mai recente tendințe de design, creăm interfețe captivante care lasă o impresie de durată. Echipa noastră este dedicată livrării de design-uri care se integrează perfect cu întreaga experiență a utilizatorului, îmbunătățind în mod semnificativ experiența generală și crescând implicarea utilizatorilor."
+        "quote": "Joe Sparano ~ “Good design is obvious. Great design is transparent.",
+        "description": "Our design solutions are crafted with a keen focus on user experience and aesthetics. We believe that design should not only be visually appealing but also intuitive and user-friendly. Through a deep understanding of user behavior and the latest design trends, we create engaging interfaces that leave a lasting impression. Our team is dedicated to delivering designs that seamlessly integrate with the overall user journey, enhancing the overall experience and driving user engagement to new heights.\n\n"
       },
       {
-        "name": "Integrare",
-        "quote": "Nicolae Iorga ~ “Un ocean întreg de valori poate fi integrat într-un singur sistem, astfel încât să creeze o forță unificată.”",
-        "description": "Serviciile noastre de integrare optimizează și unifică procese de afaceri complexe, asigurând o infrastructură digitală coerentă și eficientă. Noi ne specializăm în conectarea fără probleme a sistemelor și aplicațiilor diverse, permițând afacerilor să exploateze întregul potențial al ecosistemului lor tehnologic. Cu accent pe scalabilitate și interoperabilitate robustă, facilităm fluxul fără probleme al datelor și operațiunilor, oferind organizațiilor posibilitatea de a-și optimiza modul de lucru și de a obține o productivitate și o colaborare sporită."
+        "name": "Integration",
+        "quote": "Nicolae Iorga ~ “An entire ocean of values can be integrated into a single system, creating a unified force.”",
+        "description": "Our integration services streamline and unify complex business processes, ensuring a cohesive and efficient digital infrastructure. We specialize in seamlessly connecting diverse systems and applications, enabling businesses to harness the full potential of their technology ecosystem. With a focus on scalability and robust interoperability, we facilitate the seamless flow of data and operations, empowering organizations to optimize their workflows and achieve heightened productivity and collaboration."
       }
     ]
+  },
+  "contact": {
+    "main": {
+      "photoUrl": "https://i.imgur.com/JzqP4GZ.jpg",
+      "title": "Go Digital: Book a Consultation",
+      "subTitle": "Explore proven Software & Website Solutions. Let's Create! Our tech experts are ready to innovate and code your journey to Digital Excellence and Business Growth!"
+    },
+    "form": {
+      "fields": [
+        {
+          "id": "firstName",
+          "label": "First Name",
+          "placeHolder": "Bonnie",
+          "customStyles": "col-span-2 md:col-span-1",
+          "maxLength": "40",
+          "minLength": "2"
+        }, {
+          "id": "lastName",
+          "label": "Last Name",
+          "placeHolder": "Green",
+          "customStyles": "col-span-2 md:col-span-1",
+          "maxLength": "40",
+          "minLength": "2"
+        }, {
+          "id": "email",
+          "label": "Email",
+          "placeHolder": "email@example.com",
+          "customStyles": "col-span-2 md:col-span-1",
+          "maxLength": "50",
+          "minLength": "2"
+
+        }, {
+          "id": "phoneNumber",
+          "label": "Phone Number",
+          "placeHolder": "+12 345 6789",
+          "customStyles": "col-span-2 md:col-span-1",
+          "maxLength": "20",
+          "minLength": "2"
+        }, {
+          "id": "message",
+          "label": "Message",
+          "placeHolder": "Schedule a meeting...",
+          "customStyles": "col-span-2 h-[140px]",
+          "maxLength": "1000",
+          "minLength": "2"
+        }
+      ],
+      "info": "By submitting this form you agree to our terms and conditions and our privacy policy which explains how we may collect, use and disclose your personal information including to third parties.",
+      "button": "Send Message"
+    },
+    "validationPopup": {
+      "success": {
+        "title": "Success!",
+        "message": "Your message has been sent successfully."
+      },
+      "failure": {
+        "title": "Ooops!",
+        "message": "We're experiencing technical difficulties. Please retry sending your message."
+      },
+      "error1": {
+        "title": "Ooops!",
+        "message": "You have not filled any of the form fields. Please fill in the form and then try again."
+      },
+      "error2": {
+        "title": "Ooops!",
+        "message": "The legth of the {{parameter}} can not be more than {{length}} characters!"
+      },
+      "error3": {
+        "title": "Ooops!",
+        "message": "The legth of the {{parameter}} should be more than {{length}} characters!"
+      }
+    }
+  },
+  "404": {
+    "title": "Page not found",
+    "subtitle": "Sorry, we couldn’t find the page you’re looking for.",
+    "button": "Back to Home"
   }
 }
