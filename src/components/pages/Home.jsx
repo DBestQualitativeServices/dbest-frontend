@@ -23,10 +23,10 @@ const Home = () => {
     return (
         <div
             className={"min-w-screen min-h-screen text-darkShade bg-whiteShade selection:text-whiteShade selection:bg-accent font-poppins"}>
-            <Helmet>
-                <title>dBest Qualitative Services</title>
-                <meta name="description" content="Transform your business with innovative software solutions! Our tailored software empowers growth by optimizing workflows and expanding your reach. Book a consultation and unlock your business's full potential today." />
-            </Helmet>
+            {/*<Helmet>*/}
+            {/*    <title>dBest Qualitative Services</title>*/}
+            {/*    <meta name="description" content="Transform your business with innovative software solutions! Our tailored software empowers growth by optimizing workflows and expanding your reach. Book a consultation and unlock your business's full potential today." />*/}
+            {/*</Helmet>*/}
             <Navbar navContent={navbar}/>
             <HeroLayout heroContent={hero}/>
             <main className={"flex flex-col min-w-screen items-stretch"}>
@@ -43,10 +43,5 @@ const Home = () => {
         </div>
     )
 }
-
-// Home.meta = {
-//     title: "asd",
-//     description: "asd",
-// }
 
 export default Home

@@ -14,6 +14,6 @@ i18next
             caches: ['cookie']
         },
         fallbackLng: "en",
-        backend: {loadPath: 'assets/locales/{{lng}}/translation.json'}, //for build and azure testing
-        // backend: {loadPath: 'public/assets/locales/{{lng}}/translation.json'}, //for development
+        // backend: {loadPath: 'assets/locales/{{lng}}/translation.json'}, //for build and azure testing
+        backend: {loadPath: 'public/assets/locales/{{lng}}/translation.json'}, //for development
     });
