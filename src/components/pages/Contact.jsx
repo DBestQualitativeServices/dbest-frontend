@@ -94,7 +94,7 @@ const Contact = () => {
                     <img src={contact.main.photoUrl} alt={"Background image"}
                          className={"w-full min-h-[800px] opacity-30 object-center object-cover"}/>
                 </div>
-                <section className={" z-10 max-w-[1150px] mx-auto py-[7.2rem] sm:py-[9.6rem]"}>
+                <section className={" z-10 max-w-[1150px] mx-8 py-[7.2rem] sm:py-[9.6rem]"}>
                     <div className={"max-w-[750px] m-auto"}>
                         <SimpleAnimation>
                             <h4 className={"text-phoneTripleLarge sm:text-pcTripleLarge  text-center font-extrabold leading-none"}>

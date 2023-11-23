@@ -13,10 +13,10 @@ const Services = ({}) => {
             className={"min-w-screen min-h-screen text-darkShade bg-whiteShade selection:text-whiteShade selection:bg-accent font-poppins"}>
             <Navbar navContent={navbar}/>
             <section className={'relative z-10 mx-auto max-w-[1500px] py-[7.2rem] overflow-hidden'}>
-                <div className={'mx-[1rem]'}>
+                <div className={'mx-8'}>
                     <SimpleAnimation styles={'text-phoneTripleLarge sm:text-pcTripleLarge text-center font-extrabold leading-none'}>
                         {services.title}
-                        <span className={'text-accent'}>.</span>
+                        <span className={'text-accent'}></span>
                     </SimpleAnimation>
 
                     <div className={'py-[3.1rem]'}></div>
@@ -30,7 +30,7 @@ const Services = ({}) => {
                                     <h3>
                                         <div className={'w-auto text-phoneDoubleLarge sm:text-pcDoubleLarge font-extrabold text-end'}>
                                             {service.name}
-                                            <span className={'text-accent'}>?</span>
+                                            <span className={'text-accent'}>.</span>
                                         </div>
                                     </h3>
                                 </SimpleAnimation>

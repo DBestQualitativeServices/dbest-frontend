@@ -3,7 +3,7 @@ const ContactForm = ({data, onSubmit, buttonStatus}) => {
     return (
         <form
             onSubmit={async (e) => await onSubmit(e)}
-            className={"grid flex-1 grid-cols-1 sm:grid-cols-2 gap-x-8 max-w-[800px] bg-accent text-whiteShade mx-4 rounded-2xl p-16"}>
+            className={"grid flex-1 grid-cols-1 sm:grid-cols-2 gap-x-8 max-w-[800px] bg-accent text-whiteShade mx-8 rounded-2xl p-4 md:p-8 lgp-16"}>
             <input
                 type="submit"
                 disabled
